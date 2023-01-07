@@ -62,7 +62,7 @@ for (i=pos ;i<length+3; i+=3)
 
 plength = pos2-pos+3;
 
-if  ((plength%3==0) && (plength>3) && (pos>0))
+if  ((plength%3==0) && (plength>3) && (pos>=0))
 	{
 		//printf("starting position of ATG : %d\n",pos);
 		//printf("position of ending codon: %d\n",pos2);
